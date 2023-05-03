@@ -1,0 +1,803 @@
+/* box shadow: x y blur spread color */
+/* box shadow: x y blur spread color */
+
+
+
+*{
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+.btn{
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #ff7a57;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: black;
+}
+
+.btn-dark{
+    background-color: #343a49 !important;
+    color: white;
+    border:1px solid #343a49;
+}
+
+.btn-dark:hover{
+    background-color: black !important;
+    color: white;
+    border:1px solid black;
+}
+
+
+nav{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 4px 8px 0 gray;
+}
+
+nav .row{
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .row .img-div img{
+    width: 75px;
+}
+
+nav .row .img-div .mobile{
+    display: none;
+}
+
+nav .row .menue{
+    width: 60%;
+    margin: 8px 0;
+    text-align: center;
+}
+
+nav .row .menue ul{
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav .row .menue ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+nav .row .menue ul li a:hover,
+nav .row .menue ul li .active{
+    color: #ff7a57 ;
+}
+
+.btn{
+    background-color: #ff7a57;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+
+
+main{
+    padding-top: 200px;
+    margin-bottom: 38px;
+}
+
+main .container{
+    height: 100%;
+}
+main .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+main .row .left .subtitle,
+main .row .left .jobtitle{
+    opacity: 60%;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+main .row .left .title{
+    opacity: 70%;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+
+main .row .left .btns{
+    margin: 10px 0;
+}
+
+
+main .row img{
+    align-self: flex-end;
+}
+
+
+main .row .icons i{
+    border: 1px solid #ff7a57;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff7a57;
+    border-radius: 50%;
+}
+
+main .row .icons i:hover{
+    background-color: #ff7a57;
+    color: white;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+.widget{
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid silver;
+    padding: 10px 0;
+    border-radius: 20px;
+    /* box shadow: x y blur spread color */
+    box-shadow: 0 2px 4px 2px rgba(20, 40, 120, 0.2);
+    transform: translate(-50);
+}
+
+.widget div{
+    text-align: center;
+    border-right: 1px solid silver;
+    width: 30%;
+}
+
+.widget div p{
+    font-size: 22px;
+}
+
+.widget div:not(:last-of-type){
+    border-right: 1px solid silver;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.title1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.title1 h3{
+    font-size:30px;
+    opacity: 70%;
+    margin-bottom: 20px;
+}
+
+.title1 p{
+    margin-bottom: 20px;
+    opacity: 60%;
+}
+
+.cards .card i{
+    margin-bottom: 10px;
+    color: #ff7a57;
+    font-size: 40px;
+}
+
+.cards .card:hover i{
+    color:white;
+    transition: 0.3s;
+}
+
+.cards{
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+
+.cards .flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.cards .flex .card{
+    width: 24%;
+    background-color: white;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    border: 1px solid silver;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cards .flex .card h3{
+    margin-bottom: 20bpx;
+    opacity: 75%;
+    font-size: 25px;
+}
+
+.cards .flex .card:hover h3{
+    color: white;
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+.cards .flex .card:hover{
+    background-color: #ff7a57;
+    transition: 0.3s;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.portofolio .title{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.portofolio .title h3{
+    font-size:30px;
+    opacity: 70%;
+    margin-bottom: 20px;
+}
+
+.portofolio .title p{
+    margin-bottom: 50px;
+    opacity: 60%;
+}
+
+
+
+.portofolio .absolute .fa-link ,
+.portofolio .absolute .fa-magnifying-glass-plus{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.portofolio .absolute .fa-magnifying-glass-plus{
+    margin-left: 35%;
+}
+
+
+.portofolio .absolute i:hover{
+    color: #ff7a57;
+    background-color: white;
+}
+
+
+
+.portofolio{
+    margin-top: 50px;
+}
+
+.portofolio .row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+.portofolio .row .col .img-div{
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.portofolio .row .col .img-div .absolute{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ff7a57;
+    opacity: 60%;
+    bottom: 100%;
+    transition: bottom 1s;
+}
+
+.portofolio .row .col .img-div .absolute h4{
+    font-size: 30px;
+    opacity: 100%;
+    margin-top: 35%;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.portofolio .row .col .img-div:hover .absolute{
+    bottom: 0;
+}
+
+.portofolio .row .col .img-div img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+.title2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.title2 h3{
+    font-size:30px;
+    opacity: 70%;
+    margin-bottom: 20px;
+}
+
+.title2 p{
+    margin-bottom: 50px;
+    opacity: 60%;
+}
+
+.news{
+    margin-top: 50px;
+}
+
+
+.news .flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.news .flex .box{
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.news .flex .box h3{
+    margin-bottom: 20bpx;
+    opacity: 75%;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.news .flex .box p{
+    margin: 20px;
+    font-size: 20px;
+    opacity: 75%;
+}
+
+.news .flex .box h6{
+    color: #ff7a57;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.news .flex .box img{
+    width: 100%;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////// */
+
+.forms .title{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.forms .title h3{
+    font-size:30px;
+    opacity: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.forms .title p{
+    margin-bottom: 50px;
+    opacity: 60%;
+}
+
+.forms .container{
+    width: 900px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.forms .form{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    /* box shadow: x y blur spread color */
+    box-shadow: 0 2px 4px 2px rgba(20, 40, 120, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.forms .form h3{
+    margin: 20px;
+    opacity: 70%;
+    font-size: 30px;
+}
+
+.forms .form input{
+    margin: 50px 0 0 0px;
+    width: 450px;
+    height: 50px;
+    display: block;
+    padding-left: 20px;
+    outline: silver;
+}
+
+.forms .form textarea{
+    margin: 50px 0 0 0px;
+    width: 450px;
+    height: 130px;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 400px;
+    padding: 5px 15px;
+    font-style: italic;
+    color: grey;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: silver;
+} 
+
+input:focus, textarea:focus{
+    outline: none;
+    outline: #ff7a57;
+    border: 4px solid #ff7a57;
+    opacity: 50%;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.forms .form div{
+    border-right: 1px solid silver ;
+}
+
+.forms .map iframe{
+    width: 100%;
+    height: 600px;
+    border: 0;
+}
+
+
+
+.forms .form .btn{
+    margin-top: 20px;
+    background-color: #ff7a57;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.forms .form .btn:hover{
+    background-color: #ff6857;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (min-width:1200px) {
+
+    nav .row .menue,
+    nav .row .menue ul,
+    nav .row .img-div{
+        width: 60%;
+    }
+
+    nav .row .menue ul{
+        display: inline-flex;
+        flex-direction: row;
+        margin-right: 30px;
+    }
+
+    main{
+        height: 90vh;
+    }
+
+    main .row img{
+        width: 620px;
+    }
+
+    .widget{
+        width: 40%;
+    }
+
+    .portofolio .row .col{
+        width: 30%;
+    }
+
+    .cards .flex .card{
+        width: 24%;
+    }
+
+    .news .flex .box{
+        width: 33%;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+
+    nav .row .menue,
+    nav .row .menue ul,
+    nav .row .img-div{
+        width: 60%;
+    }
+
+    nav .row .menue ul li{
+        margin: 10px 0px;
+    }
+
+    nav .row .menue ul{
+        display: inline-flex;
+        flex-direction: row;
+        margin-right: 30px;
+    }
+
+    main{
+        height: 90vh;
+    }
+
+    main .row img{
+        width: 500px;
+    }
+
+    .widget{
+        width: 60%;
+    }
+
+    .portofolio .row .col{
+        width: 48%;
+    }
+
+    .cards .flex .card{
+        width: 32%;
+    }
+
+    .news .flex .box{
+        width: 33%;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+
+    nav .row{
+        flex-direction: column;
+    }
+
+    nav .row .menue,
+    nav .row .menue ul,
+    nav .row .img-div{
+        width: 100%;
+    }
+
+    nav .row .menue{
+        display: none;
+    }
+
+    nav .row .menue ul li{
+        margin: 10px 0px;
+    }
+
+    nav .row .img-div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .row .img-div .mobile{
+        display: block;
+    }
+
+
+    nav .row .menue ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main{
+        height: 90vh;
+    }
+
+    main .row img{
+        display: none;
+    }
+    
+    .widget{
+        width: 80%;
+    }
+
+    section{
+        position: relative;
+        padding: 5px 0;
+    }
+
+    .portofolio .row .col{
+        width: 100%;
+    }
+
+    .cards .flex .card{
+        width: 48%;
+    }
+
+    .news .flex .box{
+        width: 48%;
+    }
+
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+
+    nav .row{
+        flex-direction: column;
+    }
+
+    nav .row .menue,
+    nav .row .menue ul,
+    nav .row .img-div{
+        width: 100%;
+    }
+
+    nav .row .menue ul li{
+        margin: 10px 0px;
+    }
+    nav .row .menue{
+        display: none;
+    }
+
+
+    nav .row .img-div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .row .img-div .mobile{
+        display: block;
+    }
+
+    nav .row .menue ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main{
+        padding: 100px 0;
+    }
+
+    main .row img{
+        display: none;
+    }
+
+    .widget{
+        width: 90%;
+    }
+
+    .portofolio .row .col{
+        width: 100%;
+    }
+
+    .cards .flex .card{
+        width: 80%;
+    }
+
+    .news .flex .box{
+        width: 80%;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    nav .row{
+        flex-direction: column;
+    }
+
+    nav .row .menue,
+    nav .row .menue ul,
+    nav .row .img-div{
+        width: 100%;
+    }
+
+    nav .row .img-div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .row .menue{
+        display: none;
+    }
+
+
+    nav .row .img-div .mobile{
+        display: block;
+    }
+
+    nav .row .menue ul li{
+        margin: 10px 0px;
+    }
+
+    nav .row .menue ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main{
+        padding: 100px 0;
+    }
+
+    main .row img{
+        display: none;
+    }
+
+    .widget{
+        width: 95%;
+    }
+
+    .portofolio .row .col{
+        width: 100%;
+    }
+
+    .cards .flex .card{
+        width: 100%;
+    }
+
+    .news .flex .box{
+        width: 100%;
+    }
+
+
+}
